@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+
+#taskList {
+    background-color: silver;
+      padding: 10px;
+    width: 35%;
+    margin-left: 27%;
+      border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+    
+
+}
+
+
+.text-area {
+    padding: 10px;
+    width: 35%;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+
+    /* Animation */
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-area:focus {
+    background-color: #ffffff;
+    border-color: #007BFF;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+    transform: scale(1.02);
+}
+
+
+/*******************************************/
+.btn{
+        margin-left: 12px;
+        padding: 12px;
+         width: 7rem;
+         background-color: blue;
+         color: white;
+         border-radius: 6px;
+         border: none;
+         cursor: pointer;
+         transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
